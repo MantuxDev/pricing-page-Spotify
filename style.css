@@ -1,0 +1,379 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.title,
+.base,
+.standard,
+.pro {
+    z-index: 2;
+    position: relative;
+}
+
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #000000;
+    overflow: hidden;
+}
+
+.background span {
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 20vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 45;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.background span:nth-child(0) {
+    color: #3c8648;
+    top: 13%;
+    left: 49%;
+    animation-duration: 13s;
+    animation-delay: -26s;
+    transform-origin: 14vw 18vh;
+    box-shadow: 40vmin 0 5.2925157940994465vmin currentColor;
+}
+.background span:nth-child(1) {
+    color: #80e599;
+    top: 78%;
+    left: 59%;
+    animation-duration: 23s;
+    animation-delay: -11s;
+    transform-origin: 9vw -21vh;
+    box-shadow: -40vmin 0 5.276533125577349vmin currentColor;
+}
+.background span:nth-child(2) {
+    color: #80e599;
+    top: 59%;
+    left: 12%;
+    animation-duration: 24s;
+    animation-delay: -36s;
+    transform-origin: 6vw -8vh;
+    box-shadow: -40vmin 0 5.906708137628327vmin currentColor;
+}
+.background span:nth-child(3) {
+    color: #80e599;
+    top: 63%;
+    left: 7%;
+    animation-duration: 28s;
+    animation-delay: -17s;
+    transform-origin: 8vw 10vh;
+    box-shadow: 40vmin 0 5.985774984174028vmin currentColor;
+}
+.background span:nth-child(4) {
+    color: #00ff11;
+    top: 28%;
+    left: 74%;
+    animation-duration: 35s;
+    animation-delay: -26s;
+    transform-origin: -20vw -20vh;
+    box-shadow: 40vmin 0 5.869655831877828vmin currentColor;
+}
+.background span:nth-child(5) {
+    color: #80e599;
+    top: 34%;
+    left: 57%;
+    animation-duration: 37s;
+    animation-delay: -18s;
+    transform-origin: 23vw 21vh;
+    box-shadow: 40vmin 0 5.752031071444957vmin currentColor;
+}
+.background span:nth-child(6) {
+    color: #80e599;
+    top: 63%;
+    left: 83%;
+    animation-duration: 41s;
+    animation-delay: -2s;
+    transform-origin: -15vw 0vh;
+    box-shadow: -40vmin 0 5.820297181744538vmin currentColor;
+}
+.background span:nth-child(7) {
+    color: #00ff11;
+    top: 47%;
+    left: 5%;
+    animation-duration: 30s;
+    animation-delay: -17s;
+    transform-origin: 5vw -15vh;
+    box-shadow: 40vmin 0 5.621413497068663vmin currentColor;
+}
+.background span:nth-child(8) {
+    color: #80e599;
+    top: 5%;
+    left: 40%;
+    animation-duration: 33s;
+    animation-delay: -48s;
+    transform-origin: 20vw 14vh;
+    box-shadow: 40vmin 0 5.70871634131443vmin currentColor;
+}
+.background span:nth-child(9) {
+    color: #00ff11;
+    top: 36%;
+    left: 30%;
+    animation-duration: 49s;
+    animation-delay: -16s;
+    transform-origin: -7vw -17vh;
+    box-shadow: 40vmin 0 5.7764247318098985vmin currentColor;
+}
+.background span:nth-child(10) {
+    color: #00ff11;
+    top: 70%;
+    left: 46%;
+    animation-duration: 31s;
+    animation-delay: -26s;
+    transform-origin: 19vw -10vh;
+    box-shadow: -40vmin 0 5.762283496550902vmin currentColor;
+}
+.background span:nth-child(11) {
+    color: #00ff11;
+    top: 75%;
+    left: 13%;
+    animation-duration: 41s;
+    animation-delay: -32s;
+    transform-origin: -3vw -21vh;
+    box-shadow: 40vmin 0 5.707596282792431vmin currentColor;
+}
+.background span:nth-child(12) {
+    color: #00ff11;
+    top: 61%;
+    left: 92%;
+    animation-duration: 34s;
+    animation-delay: -21s;
+    transform-origin: -13vw 24vh;
+    box-shadow: -40vmin 0 5.292320553634702vmin currentColor;
+}
+.background span:nth-child(13) {
+    color: #80e599;
+    top: 62%;
+    left: 63%;
+    animation-duration: 11s;
+    animation-delay: -8s;
+    transform-origin: 1vw -12vh;
+    box-shadow: 40vmin 0 5.147163938879384vmin currentColor;
+}
+.background span:nth-child(14) {
+    color: #3c8648;
+    top: 7%;
+    left: 9%;
+    animation-duration: 47s;
+    animation-delay: -22s;
+    transform-origin: 9vw -10vh;
+    box-shadow: -40vmin 0 5.188160875798853vmin currentColor;
+}
+.background span:nth-child(15) {
+    color: #00ff11;
+    top: 87%;
+    left: 85%;
+    animation-duration: 23s;
+    animation-delay: -17s;
+    transform-origin: -13vw -20vh;
+    box-shadow: -40vmin 0 5.444132723273843vmin currentColor;
+}
+.background span:nth-child(16) {
+    color: #80e599;
+    top: 95%;
+    left: 24%;
+    animation-duration: 45s;
+    animation-delay: -28s;
+    transform-origin: 7vw 21vh;
+    box-shadow: -40vmin 0 5.563320976202189vmin currentColor;
+}
+.background span:nth-child(17) {
+    color: #80e599;
+    top: 68%;
+    left: 62%;
+    animation-duration: 33s;
+    animation-delay: -10s;
+    transform-origin: 18vw -19vh;
+    box-shadow: 40vmin 0 5.575897969949597vmin currentColor;
+}
+.background span:nth-child(18) {
+    color: #3c8648;
+    top: 7%;
+    left: 39%;
+    animation-duration: 6s;
+    animation-delay: -48s;
+    transform-origin: -7vw -20vh;
+    box-shadow: 40vmin 0 5.499735504011398vmin currentColor;
+}
+.background span:nth-child(19) {
+    color: #3c8648;
+    top: 30%;
+    left: 51%;
+    animation-duration: 33s;
+    animation-delay: -33s;
+    transform-origin: 0vw 15vh;
+    box-shadow: 40vmin 0 5.836878106463955vmin currentColor;
+}
+
+.title{
+    text-align: center;
+    margin-top: 70px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.abbonamenti{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 30px 30px;
+}
+
+.piani{
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+#scheda{
+    background-color: rgba(000, 000, 000, 0.6);
+    border: solid 3px white;
+    border-radius: 50px;
+    width: 300px;
+    height: 630px;
+    margin: 0px 50px 30px;
+    transition: 0.3s;
+}
+
+.prezzo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.prezzo h1{
+    font-size: 100px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.prezzo h2{
+    font-size: 40px;
+}
+
+ul, li{
+    margin: 15px;
+    text-align: left;
+    list-style: none;
+}
+
+.button{
+    margin: 30px;
+    transition: 0.3s;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #00ff11;
+    text-decoration: none;
+    border: 2px solid #00ff11;
+    box-shadow: 0px 0px 10px 5px #00ff11;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+#scheda:hover{
+    background-color: rgba(000, 000, 000);
+    box-shadow: 0px 0px 25px 5px #00ff11;
+    border: solid 3px #00ff11;
+    border-radius: 50px;
+    width: 350px;
+    height: 650px;
+    margin: 80px;
+    margin-bottom: 195px;
+
+    #yes{
+        color: #00ff11;
+    }
+
+    #nop{
+        color: gray;
+        opacity: 0.3;
+    }
+
+    .prezzo h1{
+        text-shadow: 0px 0px 100px #00ff11;
+        font-size: 120px;
+    }
+    
+    .prezzo h2{
+        text-shadow: 0px 0px 70px #00ff11;
+        font-size: 60px;
+    }
+
+    .button{
+        margin: 30px;
+        margin-top: 50px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px){
+    .abbonamenti{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 30px 30px;
+    }
+
+    #scheda:hover{
+        background-color: rgba(000, 000, 000);
+        box-shadow: 0px 0px 25px 5px #00ff11;
+        border: solid 3px #00ff11;
+        border-radius: 50px;
+        width: 350px;
+        height: 650px;
+        margin: 100px 80px 100px;
+    
+        .prezzo h1{
+            font-size: 120px
+        }
+        
+        .prezzo h2{
+            font-size: 60px;
+
+        }
+    
+    }
+
+    .button{
+        margin: 30px;
+        margin-top: 50px;
+    }
+}
